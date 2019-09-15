@@ -1,6 +1,10 @@
 Changelog
 =========
 
-#### 1.0.0 (2019-06-12)
+#### 0.1.0 (2019-09-15)
+
+* Added consul registry.
+
+#### 0.0.0 (2019-09-15)
 
 * First project release.
