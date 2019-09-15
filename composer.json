@@ -1,0 +1,23 @@
+{
+	"name" : "coka/registrator-php-sdk",
+	"type" : "library",
+	"description" : "Service registry bridge for Docker. Registrator automatically registers and deregisters services for any Docker container by inspecting containers as they come online. Registrator supports pluggable service registries, which currently includes Consul, etcd and SkyDNS 2.",
+	"keywords" : [
+		"Docker",
+		"Service",
+		"Discovery",
+		"Consul",
+		"etcd"
+	],
+	"license" : "MIT",
+	"autoload" : {
+		"psr-4" : {
+			"Oka\\Registrator\\" : "src"
+		}
+	},
+	"require" : {
+		"php" : ">=7.2",
+		"symfony/http-foundation" : "^3.4 || ^4.0",
+		"guzzlehttp/guzzle": "^6.3"
+	}
+}
