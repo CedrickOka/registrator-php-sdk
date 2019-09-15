@@ -1,4 +1,4 @@
-# Getting Started With PHP SDK for Registrator
+# Getting started with PHP SDK for Registrator
 
 PHP SDK for service registry bridge for Docker.
 

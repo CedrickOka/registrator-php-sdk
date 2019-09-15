@@ -10,6 +10,10 @@ PHP SDK for service registry bridge for Docker.
 [![Monthly Downloads](https://poser.pugx.org/coka/registrator-php-sdk/d/monthly)](https://packagist.org/packages/coka/registrator-php-sdk)
 [![Daily Downloads](https://poser.pugx.org/coka/registrator-php-sdk/d/daily)](https://packagist.org/packages/coka/registrator-php-sdk)
 
+Registrator automatically registers and deregisters services for any Docker container by inspecting containers as they come online. Registrator supports pluggable service registries, which currently includes Consul, etcd and SkyDNS 2.
+
+
+
 Latest updates
 --------------
 
