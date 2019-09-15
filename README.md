@@ -37,4 +37,4 @@ Original Credits
 License
 -------
 
-This bundle is under the MIT license. See the complete license [in the bundle](LICENSE).
+This library is under the MIT license. See the complete license [in the library](LICENSE).
