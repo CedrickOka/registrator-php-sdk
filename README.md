@@ -3,7 +3,7 @@ PHP SDK for Registrator
 
 PHP SDK for service registry bridge for Docker.
 
-[![Latest Stable Version](https://poser.pugx.org/coka/registrator-php-sdk/v/stable)](https://packagist.org/packages/coka/registrator-php-sdk)
+[![Latest Stable Version](https://poser.pugx.org/coka/registrator-php-sdk/version)](https://packagist.org/packages/coka/registrator-php-sdk)
 [![Total Downloads](https://poser.pugx.org/coka/registrator-php-sdk/downloads)](https://packagist.org/packages/coka/registrator-php-sdk)
 [![Latest Unstable Version](https://poser.pugx.org/coka/registrator-php-sdk/v/unstable)](https://packagist.org/packages/coka/registrator-php-sdk)
 [![License](https://poser.pugx.org/coka/registrator-php-sdk/license)](https://packagist.org/packages/coka/registrator-php-sdk)
