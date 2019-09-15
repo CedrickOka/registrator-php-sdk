@@ -27,7 +27,7 @@ class Registrator
 		$this->builder = new Builder($clientOptions, 'Oka\Registrator\Registry');
 	}
 	
-	public function consul(string $registryUrl, array $clientOptions) :RegistryInterface
+	public function consul(string $registryUrl, array $clientOptions = []) :RegistryInterface
 	{
 		return $this->builder->createRegistry('Consul', $registryUrl, $clientOptions);
 	}

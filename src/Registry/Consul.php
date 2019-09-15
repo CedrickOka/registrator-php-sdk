@@ -5,7 +5,6 @@ namespace Oka\Registrator\Registry;
 
 use GuzzleHttp\RequestOptions;
 use Oka\Registrator\Model\Service;
-use Registry\AbstractRegistry;
 use Symfony\Component\HttpFoundation\ParameterBag;
 
 /**

@@ -9,15 +9,34 @@
 		"Consul",
 		"etcd"
 	],
+	"authors" : [{
+			"name" : "Cedrick Oka Baidai",
+			"email" : "okacedrick@gmail.com"
+		}
+	],
 	"license" : "MIT",
 	"autoload" : {
 		"psr-4" : {
 			"Oka\\Registrator\\" : "src"
+		},
+		"exclude-from-classmap" : [
+			"/tests/"
+		]
+	},
+	"autoload-dev" : {
+		"psr-4" : {
+			"Oka\\Registrator\\Tests\\" : "tests/"
 		}
 	},
 	"require" : {
 		"php" : ">=7.2",
 		"symfony/http-foundation" : "^3.4 || ^4.0",
-		"guzzlehttp/guzzle": "^6.3"
+		"guzzlehttp/guzzle" : "^6.3"
+	},
+	"support" : {
+		"docs" : "https://github.com/CedrickOka/registrator-php-sdk/blob/master/src/Resources/doc/index.md"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^8.3"
 	}
 }

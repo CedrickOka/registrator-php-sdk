@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Registry;
+namespace Oka\Registrator\Registry;
 
 use GuzzleHttp\Client;
 
